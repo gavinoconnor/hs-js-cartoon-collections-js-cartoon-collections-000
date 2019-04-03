@@ -19,7 +19,7 @@ function summonCaptainPlanet(planeteerCalls){
 // function accepts an array and checks if any of the elements are longer than 4 characters,
 // returns false if not.
 function longPlaneteerCalls(words) {
-  for (var i = 0; i < longPlaneteerCalls.length; i++) {
+  for (var i = 0; i < words.length; i++) {
     if (words[i].length > 4) {
       return true
     } else {
