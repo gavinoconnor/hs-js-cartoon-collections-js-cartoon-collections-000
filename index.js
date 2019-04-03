@@ -1,11 +1,9 @@
 // function accepts an array of names and returns a numbered string.
 function dwarfRollCall(dwarves) {
   let dwarvesArray = [];
-  // for (var i = dwarves.length - 1; i >= 0; i--) {
-  //
-  //     dwarvesArray.push(`${[i + 1]}. ${dwarves[i]} `)
-  //
-  // }
+  for (var i = 0; i < dwarves.length; i++) {
+    dwarvesArray.push(`${[i + 1}. ${dwarves[i]} `)
+  }
   return dwarvesArray.join('')
 }
 
